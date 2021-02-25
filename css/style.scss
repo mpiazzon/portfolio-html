@@ -1,0 +1,218 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700&display=swap");
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+.flex-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.col-1 {
+  width: 7.05%;
+}
+.col-2 {
+  width: 15.5%;
+}
+.col-3 {
+  width: 23.95%;
+}
+.col-4 {
+  width: 32.4%;
+}
+.col-5 {
+  width: 40.85%;
+}
+.col-6 {
+  width: 49.3%;
+}
+.col-7 {
+  width: 57.75%;
+}
+.col-8 {
+  width: 66.2%;
+}
+.col-9 {
+  width: 74.65%;
+}
+.col-10 {
+  width: 83.1%;
+}
+.col-11 {
+  width: 91.55%;
+}
+.col-12 {
+  width: 100%;
+}
+
+body {
+  font-family: "Lato", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  color: #4c4d4d;
+}
+
+header {
+  height: 100vh;
+  width: 100%;
+}
+
+header::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  background-image: url(../images/bg5.jpg);
+  background-size: cover;
+  background-position: center;
+
+  z-index: -1;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  background: black;
+  opacity: 0.5;
+}
+
+nav .logo {
+  font-size: 2rem;
+  color: white;
+}
+
+nav ul {
+  display: flex;
+}
+
+nav ul li {
+  margin-left: 2rem;
+}
+
+nav ul li a {
+  color: white;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+nav .social i {
+  margin-left: 2rem;
+  font-size: 1.5rem;
+}
+
+header .intro {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+header .intro .text {
+  margin-bottom: 1.2rem;
+}
+
+header .intro .text .typed {
+  color: white;
+  font-size: 4rem;
+  background: coral;
+  padding: 1rem;
+}
+
+header .intro .text .typed-cursor {
+  font-size: 4rem;
+  background: coral;
+  color: white;
+  padding: 1rem 0;
+}
+
+header .intro h3 {
+  font-size: 1.8rem;
+  color: white;
+
+  font-weight: 400;
+  padding: 0.7rem 2rem;
+  margin-bottom: 2rem;
+}
+
+header .intro .btn {
+  display: block;
+  padding: 1rem 2rem;
+  background-color: transparent;
+  border: 2px solid coral;
+  color: coral;
+  text-transform: uppercase;
+  background-color: transparent;
+  border-radius: 25px;
+}
+
+.container {
+  width: 1140px;
+  margin: 0 auto;
+}
+
+section p {
+  line-height: 1.5;
+  margin-bottom: 1rem;
+}
+
+section.about {
+  background: #212529;
+  padding: 4rem 0;
+  color: rgba(255, 255, 255, 0.5);
+  width: 100%;
+}
+
+.title {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  position: relative;
+  margin-bottom: 5rem;
+  width: 100%;
+}
+
+.title h2 {
+  font-size: 8.5em;
+  opacity: 0.1;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+.title p {
+  color: white;
+  font-weight: 600;
+  position: absolute;
+  align-self: center;
+  font-size: 2.25rem;
+  line-height: 1.6;
+}
+
+.title p span {
+  width: 4rem;
+  border-bottom: 3px solid coral;
+  display: block;
+  margin: 0 auto;
+}
+
+.subtitle {
+  font-size: 1.75rem;
+  font-weight: 600;
+  margin-bottom: 2rem;
+}
